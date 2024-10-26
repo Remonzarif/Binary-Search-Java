@@ -1,11 +1,9 @@
-// Hi, this code demonstrates a binary search using an array
+
 package com.mycompany.test;
-
-import java.util.Scanner; // Importing Scanner class to take input from user 
-import java.util.Arrays;  // Importing Arrays class to use array-related methods 
-
+import java.util.Scanner; 
+import java.util.Arrays;  
 public class Test {
-    // Method to perform binary search
+  
     static int binarySearch(int arr[], int key) {
         int left = 0;
         int right = arr.length - 1;
